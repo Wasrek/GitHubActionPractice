@@ -1,0 +1,55 @@
+[debug] [2025-04-06T15:06:25.548Z] ----------------------------------------------------------------------
+[debug] [2025-04-06T15:06:25.557Z] Command:       /Users/wasrek/.nvm/versions/node/v20.18.3/bin/node /Users/wasrek/Documents/SE/GitHubActionPractice/node_modules/.bin/firebase init hosting
+[debug] [2025-04-06T15:06:25.558Z] CLI Version:   13.35.1
+[debug] [2025-04-06T15:06:25.558Z] Platform:      darwin
+[debug] [2025-04-06T15:06:25.559Z] Node Version:  v20.18.3
+[debug] [2025-04-06T15:06:25.560Z] Time:          Sun Apr 06 2025 22:06:25 GMT+0700 (Indochina Time)
+[debug] [2025-04-06T15:06:25.560Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-06T15:06:25.838Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-06T15:06:25.840Z] > authorizing via signed-in user (w.wichada26@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/wasrek/Documents/SE/GitHubActionPractice
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-04-06T15:06:25.851Z] Using project from CLI flag: flutter-2411-4b5d6
+[debug] [2025-04-06T15:06:25.854Z] Checked if tokens are valid: true, expires at: 1743954885164
+[debug] [2025-04-06T15:06:25.854Z] Checked if tokens are valid: true, expires at: 1743954885164
+[debug] [2025-04-06T15:06:25.857Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/flutter-2411-4b5d6 [none]
+[debug] [2025-04-06T15:06:26.395Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/flutter-2411-4b5d6 200
+[debug] [2025-04-06T15:06:26.395Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/flutter-2411-4b5d6 {"projectId":"flutter-2411-4b5d6","projectNumber":"650339640830","displayName":"Flutter-2411","name":"projects/flutter-2411-4b5d6","resources":{"hostingSite":"flutter-2411-4b5d6","realtimeDatabaseInstance":"flutter-2411-4b5d6","locationId":"asia-northeast1"},"state":"ACTIVE","etag":"1_8049b51a-2b4e-43ad-9306-c8a7cf371b2c"}
+[info] i  Using project flutter-2411-4b5d6 (Flutter-2411) 
+[info] 
+=== Hosting Setup
+[debug] [2025-04-06T15:06:26.407Z] Checked if tokens are valid: true, expires at: 1743954885164
+[debug] [2025-04-06T15:06:26.408Z] Checked if tokens are valid: true, expires at: 1743954885164
+[debug] [2025-04-06T15:06:26.408Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/flutter-2411-4b5d6 [none]
+[debug] [2025-04-06T15:06:26.739Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/flutter-2411-4b5d6 200
+[debug] [2025-04-06T15:06:26.739Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/flutter-2411-4b5d6 {"projectId":"flutter-2411-4b5d6","projectNumber":"650339640830","displayName":"Flutter-2411","name":"projects/flutter-2411-4b5d6","resources":{"hostingSite":"flutter-2411-4b5d6","realtimeDatabaseInstance":"flutter-2411-4b5d6","locationId":"asia-northeast1"},"state":"ACTIVE","etag":"1_8049b51a-2b4e-43ad-9306-c8a7cf371b2c"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] i  public/404.html is unchanged 
+[debug] [2025-04-06T15:06:34.804Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2025-04-06T15:06:34.919Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2025-04-06T15:06:34.920Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"11.6.0","browserURL":"https://www.gstatic.com/firebasejs/11.6.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/11.6.0/firebase.tgz"},"live":{"version":"11.6","browserURL":"https://www.gstatic.com/firebasejs/live/11.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/11.6/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/11.6.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/11.6.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/11.6.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/11.6.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/11.6.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/11.6.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/11.6.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/11.6.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/11.6.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/11.6.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/11.6.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/11.6.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/11.6.0/firebase-database.js","vertexai":"https://www.gstatic.com/firebasejs/11.6.0/firebase-vertexai.js","data-connect":"https://www.gstatic.com/firebasejs/11.6.0/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.memory.js"}}
